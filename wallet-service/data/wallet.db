@@ -1,0 +1,3 @@
+database.Exec(
+	"INSERT OR IGNORE INTO wallets(id, balance) VALUES('wallet-1', 5000)",
+)
